@@ -425,8 +425,8 @@
     \ifthenelse{\isundefined{\@photo}}{}{%
       \newlength{\photodim}
       \ifthenelse{\equal{\@photoshape}{circle}}%
-        {\setlength{\photodim}{1.3cm}}%
-        {\setlength{\photodim}{1.8cm}}%
+        {\setlength{\photodim}{1.0cm}}%
+        {\setlength{\photodim}{1.0cm}}%
       \ifthenelse{\equal{\@photoedge}{edge}}%
         {\def\@photoborder{darkgray}}%
         {\def\@photoborder{none}}%
@@ -441,8 +441,8 @@
     \setlength{\headertextwidth}{\textwidth}
     \setlength{\headerphotowidth}{0cm}
   }{%
-    \setlength{\headertextwidth}{0.76\textwidth}
-    \setlength{\headerphotowidth}{0.24\textwidth}
+    \setlength{\headertextwidth}{0.75\textwidth}
+    \setlength{\headerphotowidth}{0.25\textwidth}
   }%
   \begin{minipage}[c]{\headerphotowidth}%
     \ifthenelse{\equal{\@photoalign}{left}}{\raggedright\drawphoto}{}
@@ -640,11 +640,11 @@
 }
 
 \newenvironment{cvlongtable}{%
-  \vspace{-5mm}
+  \vspace{-3mm}
   \begin{longtable}{l p{7in}}
 }{%
   \end{longtable}
-  \vspace{-12mm}
+  \vspace{-8mm}
 }
 
 \newcommand*{\longtableentry}[2]{%

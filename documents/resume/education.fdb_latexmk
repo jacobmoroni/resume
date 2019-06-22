@@ -1,14 +1,14 @@
 # Fdb version 3
-["pdflatex"] 1561236880 "education.tex" "/home/jacob/Documents/resume/documents/resume/education.pdf" "education" 1561236880
+["pdflatex"] 1561237897 "education.tex" "/home/jacob/Documents/resume/documents/resume/education.pdf" "education" 1561237897
   "/etc/texmf/web2c/texmf.cnf" 1561210095 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/jacob/Documents/resume/documents/resume/education.aux" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1561210164 4126737 e8aecfdf02cd9816d8366328a8e178a9 ""
-  "education.tex" 1561236880 1329 4d19687f29cd3c384ea0ef8227ea91f1 ""
+  "education.tex" 1561237897 1329 f7045bffe7078a41e3c5278cba1771b7 ""
   (generated)
-  "education.log"
-  "/home/jacob/Documents/resume/documents/resume/education.log"
   "/home/jacob/Documents/resume/documents/resume/education.pdf"
-  "/home/jacob/Documents/Resume-CV/examples/resume/education.pdf"
   "/home/jacob/Documents/Resume-CV/examples/resume/education.log"
+  "/home/jacob/Documents/resume/documents/resume/education.log"
+  "/home/jacob/Documents/Resume-CV/examples/resume/education.pdf"
+  "education.log"
