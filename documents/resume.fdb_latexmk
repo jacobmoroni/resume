@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1561152135 "resume.tex" "/home/jacob/Documents/Resume-CV/examples/resume.pdf" "resume" 1561152135
-  "/etc/texmf/web2c/texmf.cnf" 1557876223 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jacob/Documents/Resume-CV/examples/resume.aux" 1561152045 665 82c456479ed516bc5a94b04c48282691 ""
+["pdflatex"] 1561219677 "resume.tex" "/home/jacob/Documents/resume/documents/resume.pdf" "resume" 1561219677
+  "/etc/texmf/web2c/texmf.cnf" 1561210095 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/jacob/Documents/resume/documents/resume.aux" 1561219131 739 1abafb689c40c6e64fbeb3d3a0c0abc7 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1480098815 1458 43ab4710dc82f3edeabecd0d099626b2 ""
@@ -35,10 +35,12 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty" 1480098843 5689 1bfa68243e89a54479e7d0580773c57e ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1557933615 4131268 fc82b27867ded775360fb94d20b16143 ""
-  "awesome-cv.cls" 1561140970 26715 9c0cd20b1a8812030205f9da1d1ef7ef ""
-  "resume.tex" 1561152135 3653 1f74c461db2a193f9834becbc2b41cc3 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1561210164 4126737 e8aecfdf02cd9816d8366328a8e178a9 ""
+  "awesome-cv.cls" 1561219664 27937 9f17d957785dbe2471fc9110a1189d51 ""
+  "resume.tex" 1561219676 3683 74430dd04c26e1fb36b051565a808e31 ""
   (generated)
-  "/home/jacob/Documents/Resume-CV/examples/resume.log"
   "resume.log"
+  "/home/jacob/Documents/resume/documents/resume.log"
+  "/home/jacob/Documents/Resume-CV/examples/resume.log"
+  "/home/jacob/Documents/resume/documents/resume.pdf"
   "/home/jacob/Documents/Resume-CV/examples/resume.pdf"

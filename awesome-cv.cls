@@ -7,7 +7,7 @@
 % Authors:
 % Claud D. Park <posquit0.bj@gmail.com>
 % http://www.posquit0.com
-% 
+%
 % Jacob Olson <jacobmoroniolson@gmail.com>
 %
 % Notes:
@@ -87,6 +87,7 @@
 \RequirePackage{etaremune}
 
 \RequirePackage{tabularx}
+\RequirePackage{longtable}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
@@ -628,6 +629,38 @@
   \end{tabularx}%
 }
 
+\newcommand*{\cventrycolz}[4]{%
+  \vspace{-10.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{4pt}
+  \begin{tabularx}{\textwidth}{XX}
+    \entrytitlestyle{#1} & \entrytitlestyle{#2}  \\
+    \descriptionstyle{#3} & \descriptionstyle{#4} \\
+  \end{tabularx}%
+}
+
+\newenvironment{cvlongtable}{%
+  \vspace{-5mm}
+  \begin{longtable}{l p{7in}}
+}{%
+  \end{longtable}
+  \vspace{-12mm}
+}
+
+\newcommand*{\longtableentry}[2]{%
+\entrypositionstyle{#1} & {\enskip\cdotp\enskip}~~~~~\descriptionstyle{#2}\\
+}
+
+\newcommand*{\cventrylist}[2]{%
+  \vspace{1.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{4pt}
+  \newcolumntype{b}{X}
+  \newcolumntype{s}{>{\hsize=.2\hsize}X}
+  \begin{tabularx}{\textwidth}{sb}
+    \descriptionstyle{#1} & \descriptionstyle{#2}\\
+  \end{tabularx}%
+}
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}
