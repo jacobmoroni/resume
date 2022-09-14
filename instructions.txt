@@ -2,6 +2,10 @@ Instructions to render and use
 
 to use different fonts, add .ttf font file to /fonts then add \newfontfamily around line 167 of awesome-cv.cls, then modify configuration around line 206
 
+
+dependencies:
+  sudo apt install texlive-full
+
 to re-render pdf:  xelatex resume.tex
 to re-render png:  pdftoppm resume.pdf resume -png -r 300 
   --convert resume.pdf to resume.png  (resume -png) and set dpi to 300 (-r 300)
